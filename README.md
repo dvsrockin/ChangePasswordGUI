@@ -4,3 +4,4 @@
 # there can be a lot of delay and errors in changing the password
 # hence this simple utility which doesnot require any Power shell Module and solely works on .NET framework
 # helps you to chaange your password , just by copy pasting , old and new password 
+# if exe doest work , please try the PS1 file

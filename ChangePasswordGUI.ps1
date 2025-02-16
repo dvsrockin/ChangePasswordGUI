@@ -42,6 +42,7 @@ $cbDomain = New-Object System.Windows.Forms.ComboBox
 $cbDomain.Location = New-Object System.Drawing.Point(140, 20)
 $cbDomain.Size = New-Object System.Drawing.Size(200, 20)
 $cbDomain.DropDownStyle = [System.Windows.Forms.ComboBoxStyle]::DropDownList
+$cbDomain.sorted = $true
 
 Try{
         $rootDSE = New-Object System.DirectoryServices.DirectoryEntry("LDAP://RootDSE")
